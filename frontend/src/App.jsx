@@ -32,7 +32,7 @@ function App() {
 
     try {
       // 127.0.0.1 පාවිච්චි කිරීම ඉතාමත් ස්ථාවරයි
-      const response = await fetch('http://127.0.0.1:8000/chat', {
+      const response = await fetch('https://omira01-chatbot-ai-backend.hf.space/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: input }),
